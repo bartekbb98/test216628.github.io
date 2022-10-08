@@ -1,6 +1,14 @@
 <html>
 
 
+<head>
+
+	
+
+</head>
+
+
+<body>
 <form action="...">
 Adres
 	<input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
@@ -11,19 +19,19 @@ Adres
 
 <form action="...">
 Kod pocztowy
-	<input type="text" name="kod_pocztowy" i>
+	<input type="text" pattern="^\d{2}-\d{3}$" name="kod_pocztowy" >
 </form>
 
 
 <form action="...">
 Numer nip
-	<input type="text" name="nip">
+	<input type="text" name="nip" pattern="^((\d{3}[- ]\d{3}[- ]\d{2}[- ]\d{2})|(\d{3}[- ]\d{2}[- ]\d{2}[- ]\d{3}))$"  >
 </form>
 
 
 <form action="...">
 Numer dowodu
-	<input type="text" name="numer_dowodu">
+	<input type="text" name="numer_dowodu"  >
 </form>
 
 <form action="...">
@@ -58,17 +66,17 @@ Sciezka do pliku (wersja 3)
 
 <form action="...">
 Adres ipv6
-	<input type="text" name="sciezka2">
+	<input type="text" name="ipv6">
 </form>
 
 <form action="...">
 Numer telefonu
-	<input type="text" name="sciezka2">
+	<input type="text" name="nr_telefonu" pattern="^\d{9}">
 </form>
 
 
 
-
+</body>
 
 
 
