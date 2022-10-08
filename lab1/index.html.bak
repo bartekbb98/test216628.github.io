@@ -1,16 +1,17 @@
 <html>
 
 
-<form action="..."> 
+<form action="...">
 Adres
-	<input type="text" name="adres">
-</form>
+	<input type="text" name="adres" label="a" value="Submit">
+	</form>
 
-</p>
+
+
 
 <form action="...">
 Kod pocztowy
-	<input type="text" name="kod_pocztowy">
+	<input type="text" name="kod_pocztowy" i>
 </form>
 
 
@@ -21,24 +22,52 @@ Numer nip
 
 
 <form action="...">
+Numer dowodu
 	<input type="text" name="numer_dowodu">
 </form>
 
 <form action="...">
+Adres ipv4
 	<input type="text" name="adres_ipv4">
 </form>
 
 <form action="...">
+Strona www
 	<input type="text" name="www">
 </form>
 
 <form action="...">
+Sciezka do pliki
 	<input type="text" name="sciezka1">
 </form>
 
 <form action="...">
+Sciezka do pliku (wersja 2)
 	<input type="text" name="sciezka2">
 </form>
+
+
+<form action="...">
+Sciezka do pliku (wersja 2)
+	<input type="text" name="sciezka2">
+</form>
+<form action="...">
+Sciezka do pliku (wersja 3)
+	<input type="text" name="sciezka3">
+</form>
+
+<form action="...">
+Adres ipv6
+	<input type="text" name="sciezka2">
+</form>
+
+<form action="...">
+Numer telefonu
+	<input type="text" name="sciezka2">
+</form>
+
+
+
 
 
 
