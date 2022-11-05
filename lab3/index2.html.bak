@@ -1,0 +1,42 @@
+<doctype HTML>
+
+<html>
+
+<head>
+	<meta charset= "utf-8"  />
+	<title>Generuj klocki</title>
+	
+<style>
+
+
+.slist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+ width: 30%;
+  
+  
+}
+
+
+
+
+</style>
+
+	<script type ="text/javascript" src="skrypt.js" > </script>
+
+<script>
+
+
+ <canvas id="myCanvas" width=90% height=80%></canvas>
+<button type="rodzaj">Treść przycisku</button>
+	
+</script>
+
+
+</head>
+<body >
+
+
+</body>
+</html>
