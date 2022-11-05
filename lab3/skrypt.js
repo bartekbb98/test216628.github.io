@@ -6,6 +6,7 @@ function rectInRandomPosition()
 {
 	var randX,randy;
 	randX = Math.random()*500;
+	
 	randY = Math.random()*500;
 	
 	ctx.fillRect(randX,randY,20,20);

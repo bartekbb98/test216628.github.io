@@ -9,7 +9,7 @@ function rectInRandomPosition()
 	randY = Math.random()*500;
 	
 	ctx.fillRect(randX,randY,20,20);
-	document.write(5 + 6);
+	
 	
 }
 
