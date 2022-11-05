@@ -50,7 +50,7 @@ Numer nip
 
 <form >
 Numer dowodu
-	<input type="text" class="inputF" patern = "[A-Z]{3}+[1-9]{6}$"name="numer_dowodu"  >
+	<input type="text" class="inputF" patern = "[A-Z]{3}+[1-9]{6}$" name="numer_dowodu"  >
 </form>
 
 <form >
@@ -60,7 +60,7 @@ Adres ipv4
 
 <form >
 Strona www
-	<input type="text" class="inputF" name="www">
+	<input type="text" class="inputF" name="www" patern = "[www.]+[a-z1-9]+[.pl]"$">
 </form>
 
 <form >

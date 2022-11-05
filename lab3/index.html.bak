@@ -1,0 +1,38 @@
+<doctype HTML>
+
+<html>
+
+<head>
+	<meta charset= "utf-8"  />
+	<title> Lista drag and drop</title>
+	<link rel="stylesheet" href="styl.css">
+
+
+	<script type ="text/javascript" src="skrypt.js" > </script>
+
+<script>
+
+
+
+	
+</script>
+
+
+</head>
+<body >
+
+ <ol id="sortlist">
+    <li>ELEMENT 1 </li>
+    <li>ELEMENT 2</li>
+    <li>ELEMENT 3</li>
+    <li>ELEMENT 4</li>
+ </ol> 
+
+<script>
+window.addEventListener("DOMContentLoaded", () => {
+  slist(document.getElementById("sortlist"));
+});
+</script>
+
+</body>
+</html>
