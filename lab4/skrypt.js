@@ -88,7 +88,7 @@ function addKontrahent() {
         alert("error");
     }
 
-	alert("Dodano",employeeID ,' ' name ,'  ', surname, '   ', age,'   ', email  );
+	alert("Dodano:  ",employeeID ,' ' name ,'  ', surname, '   ', age,'   ', email  );
 }
 
 
