@@ -1,7 +1,7 @@
 
 const canvas  =document.getElementByID("myCanvas");
 const ctx = canvas.getContext("2d");
-
+	ctx.fillRect(100,12,20,20);
 function rectInRandomPosition()
 {
 	var randX,randy;
@@ -14,13 +14,13 @@ function rectInRandomPosition()
 	
 }
 
-//Drag and drop
+
 function slist (target) {
 
   target.classList.add("slist");
   let items = target.getElementsByTagName("li"), current = null;
 
-
+ctx.fillRect(100,12,20,20);
   for (let i of items) {
     i.draggable = true;
     

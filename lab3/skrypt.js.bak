@@ -1,11 +1,12 @@
 
 const canvas  =document.getElementByID("myCanvas");
 const ctx = canvas.getContext("2d");
-
+	ctx.fillRect(100,12,20,20);
 function rectInRandomPosition()
 {
 	var randX,randy;
 	randX = Math.random()*500;
+	
 	randY = Math.random()*500;
 	
 	ctx.fillRect(randX,randY,20,20);
@@ -13,7 +14,7 @@ function rectInRandomPosition()
 	
 }
 
-//Drag and drop
+
 function slist (target) {
 
   target.classList.add("slist");
